@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/profilepicture
+hooks:
+  #  ApplicationStop:
+  #  - location: deployment.js
+  #  timeout: 180
+  BeforeInstall:
+    - location: deployment.js
+      timeout: 180
+  AfterInstall:
+    - location: deployment.js
+      timeout: 180
+  ApplicationStart:
+    - location: deployment.js
+      timeout: 180
+  ValidateService:
+    - location: deployment.js
+      timeout: 180
+

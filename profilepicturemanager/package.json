@@ -31,7 +31,8 @@
     "multer": "~0.1.6",
     "mongoose-auto-increment":"~5.0.1",
     "cors":"~2.7.1",
-    "gridfs-stream":"~1.1.1"
+    "gridfs-stream":"~1.1.1",
+    "codedeploy-scripts":"latest"
   },
   "devDependencies": {
   	 "should": "~7.1.0",
